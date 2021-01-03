@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1366px;
+    min-width: 1366px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+/*header*/
+
+.header {
+    min-height: 360px;
+    background-color: #f5f5f5;
+}
+
+.header .logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+
+.menu {
+    float: right;
+    margin-top: 52px;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+
+}
+
+.menu li a {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+}
+
+.menu li a:hover {
+    color: #212121;
+    font-size: 14px;
+    border-bottom: 3px solid black;
+}
+
+.text {
+    width: 458px;
+    margin-top: 171px;
+    margin-left: 101px;
+}
+
+.text h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 72px;
+    letter-spacing: -3px;
+}
+
+.search {
+    float: right;
+    margin-right: 167px;
+    margin-top: 63px;
+}
+
+/*contacts*/
+
+.clr {
+    min-height: 386px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.location_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 98px;
+    margin-right: 98px;
+}
+
+.location_info-item {
+    width: 370px;
+    height: 370px;
+    border: 1px solid  #6c6c6c;
+    list-style-type: none;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+.location_info-item {
+    text-align: center;
+}
+
+.location_info-drop {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.location_info-town {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contacts_title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6c6c6c;
+}
+
+.contacts_info {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.contacts_address {
+    font-family: "Montserratlight", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+
+/*footer*/
+
+.footer {
+    max-width: 1366px;
+    min-width: 1366px;
+    margin: -384px auto 0;
+    height: 384px;
+    padding: 0 5px;
+    background-color: #f7f7f7;
+}
+
+.footer_wrapper {
+    background-color: #f7f7f7;
+}
+
+.footer_information {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 115px;
+}
+
+.footer_title {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    padding-bottom: 15px;
+}
+
+.footer_info {
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.footer_useful-items {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80px;
+}
+
+.footer_useful-item {
+    font-size: 14px;
+    line-height: 26px;
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+.footer_useful-item a {
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.footer_contuct {
+    width: 225px;
+    padding-right: 75px;
+}
+
+.footer_useful {
+    width: 500px;
+}
+
+.footer_intouch {
+    width: 370px;
+}
+
+fieldset {
+    border: 0 none;
+}
+
+.footer_email {
+    width: 370px;
+    height: 48px;
+}
+
+.footer_bottom {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer_email {
+    padding-left: 10px;
+    background: url(img/img_home/icomail.png) no-repeat;
+    background-position-x: 330px;
+    background-position-y: 15px;
+}
+
+.footer_email::placeholder {
+    padding-left: 10px;
+
+}
+
+.footer_social {
+    list-style-type: none;
+    display: flex;
+    font-weight: wrap;
+}
+
+.footer_social a {
+    text-decoration: none;
+}
+
+.footer_copyright {
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6c6c6c;
+}

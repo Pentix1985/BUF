@@ -1,0 +1,78 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 100px;
+    outline: 4px solid #000;
+}
+
+.logo:hover {
+    outline: none;
+}
+
+.menu li {
+    list-style-type: none;
+    border: 1px solid #000;
+    text-align: center;
+    display: inline-block;
+    background-color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu li:last-child {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: auto;
+}
+
+.menu li:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu li:first-child a {
+    color: orange;
+}
+
+.menu li a:hover::after {
+    color: red;
+    content: ">>";
+}
+
+.menu li a:active {
+    color: green;
+}
+
+.list li:nth-child(3):after {
+    content:  "new";
+    color:blueviolet;
+    text-transform: uppercase;
+}
+
+.text::first-letter {
+    font-size: 30px;
+    color: brown;
+}
+.table {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid black;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.five {
+    background-color: green;
+}

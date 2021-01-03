@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "raleway_regular";
+    src: local('Raleway Regular'),
+        url('../fonts/raleway/raleway_regular.woff2') format('woff2'),
+        url('../fonts/raleway/raleway_regular.woff') format('woff'),
+        url('../fonts/raleway/raleway_regular.ttf') format('ttf'),
+        url('../fonts/raleway/raleway_regular.eot') format('eot'),
+        url('../fonts/raleway/raleway_regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: "raleway_bold";
+    src: local('Raleway Bold'),
+        url('../fonts/raleway/raleway_bold.woff2') format('woff2'),
+        url('../fonts/raleway/raleway_bold.woff') format('woff'),
+        url('../fonts/raleway/raleway_bold.ttf') format('ttf'),
+        url('../fonts/raleway/raleway_bold.eot') format('eot'),
+        url('../fonts/raleway/raleway_bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: "raleway_medium";
+    src: local('Raleway Medium'),
+        url('../fonts/raleway/raleway_medium.woff2') format('woff2'),
+        url('../fonts/raleway/raleway_medium.woff') format('woff'),
+        url('../fonts/raleway/raleway_medium.ttf') format('ttf'),
+        url('../fonts/raleway/raleway_medium.eot') format('eot'),
+        url('../fonts/raleway/raleway_medium.svg') format('svg');
+}
+
+@font-face {
+    font-family: "montserrat_extralight";
+    src: local('Montserrat Extralight'),
+        url('../fonts/montserrat/montserrat_extralight.woff2') format('woff2'),
+        url('../fonts/montserrat/montserrat_extralight.woff') format('woff'),
+        url('../fonts/montserrat/montserrat_extralight.ttf') format('ttf'),
+        url('../fonts/montserrat/montserrat_extralight.eot') format('eot'),
+        url('../fonts/montserrat/montserrat_extralight.svg') format('svg');
+}
+
+@font-face {
+    font-family: "montserrat_light";
+    src: local('Montserrat Light'),
+        url('../fonts/montserrat/montserrat_light.woff2') format('woff2'),
+        url('../fonts/montserrat/montserrat_light.woff') format('woff'),
+        url('../fonts/montserrat/montserrat_light.ttf') format('ttf'),
+        url('../fonts/montserrat/montserrat_light.eot') format('eot'),
+        url('../fonts/montserrat/montserrat_light.svg') format('svg');
+}
+
+@font-face {
+    font-family: "montserrat_regular";
+    src: local('Montserrat Regular'),
+        url('../fonts/montserrat/montserrat_regular.woff2') format('woff2'),
+        url('../fonts/montserrat/montserrat_regular.woff') format('woff'),
+        url('../fonts/montserrat/montserrat_regular.ttf') format('ttf'),
+        url('../fonts/montserrat/montserrat_regular.eot') format('eot'),
+        url('../fonts/montserrat/montserrat_regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: "roboto_regular";
+    src: local('Roboto Regular'),
+        url('../fonts/montserrat/roboto_regular.woff2') format('woff2'),
+        url('../fonts/montserrat/roboto_regular.woff') format('woff'),
+        url('../fonts/montserrat/roboto_regular.ttf') format('ttf'),
+        url('../fonts/montserrat/roboto_regular.eot') format('eot'),
+        url('../fonts/montserrat/roboto_regular.svg') format('svg');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    min-width: 1920px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../img/2-layers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.header-nav {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 181px;
+    align-items: center;
+    color: #ffffff;
+    font-family: "raleway_regular", "arial", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+    text-align: center;
+}
+
+.logo svg {
+    fill: #ffffff;
+}
+
+.logo:hover svg {
+    fill: #998675;
+    stroke: #ffffff;
+}
+
+.logo:hover span {
+    color: #998675;
+}
+
+.logo:active svg {
+    fill: #000000;
+}
+
+.logo:active span {
+    color: #000000;
+}
+
+nav {
+    margin-left: 130px;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: "montserrat_regular";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+nav a:hover {
+    color: #c7b299;
+}
+
+nav a:active {
+    color: #c7b299;
+}
+
+.cart-search button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.cart-search input {
+    display: none;
+}

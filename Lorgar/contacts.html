@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo" alt="logo"></div>
+            <div class="navM">
+                <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog/catalog.html">Каталог товаров</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="content">
+            <form action="#">
+                <h2 class="head">Напишите нам!</h2>
+                <div class="contacts">
+                    <ul class="feedback">
+                        <li>Имя:<br>
+                            <input type="text" placeholder="Укажите ваше имя или псевдоним"><br></li>
+                        <li>Email:<br>
+                            <input type="mail" placeholder="Укажите вашу почту"><br></li>
+                        <li>Тема:<br>
+                            <input type="text" placeholder="Укажите тему обращения"><br></li>
+                        <li>Подробное описание (текстовое поле):<br></li>
+                        <textarea rows="10" cols="45" placeholder="Опишите подробнее, что Вас интересует"></textarea> <br>
+                        <li>Страна:</li>
+                        <select name="Strana">
+                            <option disabled>Выберите страну</option>
+                            <option value="Россия">Россия</option>
+                            <option value="Беларуссия">Беларуссия</option>
+                        </select>
+                        <p><input type="submit" value="Отправить"> <input type="reset" value="Очистить"><br>
+                    </ul>
+                </div>
+            </form>
+
+            <h2 class="head">Контактные данные:</h2>
+            <ul id="address">
+                <li>Наш адрес: Россия, Ярославская область, г. Ярославль, проспект Толбухина, дом 40.</li>
+                <li>Наш телефон: 8(911)1111111</li>
+                <li>Наша почта: Lorgar@mail.ru</li>
+                <li>Вход со&nbsp;двора на&nbsp;третий этаж, вторая дверь (не&nbsp;первая!).</li>
+                <li>Мы&nbsp;на&nbsp;карте:</li>
+            </ul>
+            <!-- Если карта пишет, что невозможно установить связь с сервером, то мне помогла чистка кэша :) -->
+            <iframe src="https://yandex.ru/map-widget/v1/-/CCayu0li" width=100% height="374px" frameborder="1" allowfullscreen="true"></iframe>
+        </div>
+        <!-- Подвал -->
+        <hr>
+        <div class="footer">&laquo;Все права защищены&raquo; &copy;.</div>
+    </div>
+</body>
+
+</html>
