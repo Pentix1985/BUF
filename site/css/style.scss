@@ -1,0 +1,129 @@
+@import url('../css/null.scss');
+
+.container {
+    max-width: 1920px;
+    padding-left: 335px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.fon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 17px;
+    left: 80px;
+    z-index: -1;
+}
+
+.title {
+    font-family: Calibri;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #141419;
+    display: inline-block;
+    margin-bottom: 17px;
+    span {
+        background-image: linear-gradient(0, transparent 0.22em, #fb973b 0.22em, #fb973b 0.42em, transparent 0.42em);
+    }
+}
+
+.sybtitle {
+    font-family: Calibri;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #616161;
+    display: inline-block;
+    margin-bottom: 36px;
+}
+
+.orange-text {
+    font-weight: 700;
+    color: #fb973b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 334px 0 0;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        min-width: 768px;
+        margin: 0 117px;
+        a {
+            margin-right: 50px;
+            font-family: Calibri;
+            font-size: 18px;
+            line-height: 29px;
+            font-weight: 400;
+            color: #616161;
+            border-bottom: 2px solid transparent;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                border-bottom: 2px solid peru;
+            }
+        }
+        
+    }
+    .header__phone {
+        font-family: Calibri;
+        font-size: 18px;
+        line-height: 29px;
+        font-weight: 700;
+        color: #141419;
+    }
+}
+
+.best-light {
+    display: flex;
+    flex-direction: column;
+    padding: 99px 57px 90px 0;
+    min-width: 1585px;
+    position: relative;
+    .best-light__title {
+        max-width: 660px;
+    }
+    .best-light__subtitle {
+        max-width: 324px;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 982px;
+        height: 584px;
+        background-image: url("../img/korofka-lampi.png");
+        background-size: 982px;
+        background-repeat: no-repeat;
+        background-position-x: right 57px;
+        background-position-y: top 25px;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+.form {
+    .form-tel {
+        width: 196px;
+        height: 57px;
+        border: 1px solid #e1e1e1;
+        padding: 21px 33px 20px 32px;
+    }
+    .form-btn {
+        width: 195px;
+        height: 57px;
+        background-color: #fb973b;
+        font-family: 'SFUI Display';
+        font-size: 18px;
+        line-height: 31px;
+        font-weight: 500;
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
